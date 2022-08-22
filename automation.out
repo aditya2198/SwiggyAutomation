@@ -1,0 +1,212 @@
+2022-08-22 12:08:952 INFO  Browser:30 - Browser Opened
+2022-08-22 12:08:398 INFO  swiggyLocationnPageFactory:159 - Validating homepage url
+2022-08-22 12:08:549 INFO  Browser:36 - Browser closed
+2022-08-22 12:08:541 INFO  Browser:30 - Browser Opened
+2022-08-22 12:08:604 INFO  swiggyLocationnPageFactory:90 - Suggestions displayed for matching results
+2022-08-22 12:08:635 INFO  swiggyLocationnPageFactory:176 - EValidating popular indian cities
+2022-08-22 12:08:34 INFO  Browser:36 - Browser closed
+2022-08-22 12:08:184 INFO  Browser:30 - Browser Opened
+2022-08-22 12:08:458 INFO  swiggyLocationnPageFactory:90 - Suggestions displayed for matching results
+2022-08-22 12:08:486 INFO  swiggyLocationnPageFactory:176 - EValidating popular indian cities
+2022-08-22 12:08:899 INFO  Browser:36 - Browser closed
+2022-08-22 12:08:716 INFO  Browser:30 - Browser Opened
+2022-08-22 12:08:273 INFO  swiggyLocationnPageFactory:176 - EValidating popular indian cities
+2022-08-22 12:08:699 INFO  Browser:36 - Browser closed
+2022-08-22 12:08:645 INFO  Browser:30 - Browser Opened
+2022-08-22 12:08:59 INFO  swiggyLocationnPageFactory:71 - Entering desired location
+2022-08-22 12:08:511 INFO  swiggyLocationnPageFactory:77 - Selecting desired location
+2022-08-22 12:08:268 INFO  swiggyLocationnPageFactory:159 - Validating homepage url
+2022-08-22 12:08:390 INFO  Browser:36 - Browser closed
+2022-08-22 12:08:535 INFO  Browser:30 - Browser Opened
+2022-08-22 12:08:369 INFO  swiggyLocationnPageFactory:129 - Fetching current location
+2022-08-22 12:08:521 INFO  swiggyLocationnPageFactory:195 - Current location fetched successfully
+2022-08-22 12:08:778 INFO  Browser:36 - Browser closed
+2022-08-22 12:08:573 INFO  Browser:30 - Browser Opened
+2022-08-22 12:08:179 INFO  swiggyLocationnPageFactory:71 - Entering desired location
+2022-08-22 12:08:686 INFO  swiggyLocationnPageFactory:77 - Selecting desired location
+2022-08-22 12:08:577 INFO  swiggyLocationnPageFactory:136 - Changing the location
+2022-08-22 12:08:667 INFO  swiggyLocationnPageFactory:143 - Setting new location
+2022-08-22 12:08:99 INFO  swiggyLocationnPageFactory:150 - New location set
+2022-08-22 12:08:566 INFO  Browser:36 - Browser closed
+2022-08-22 12:08:378 INFO  Browser:30 - Browser Opened
+2022-08-22 12:08:902 INFO  swiggyLocationnPageFactory:71 - Entering desired location
+2022-08-22 12:08:411 INFO  swiggyLocationnPageFactory:77 - Selecting desired location
+2022-08-22 12:08:651 INFO  swiggyReadDataFromExcelPageFactory:84 - search field clicked
+2022-08-22 12:08:840 INFO  swiggyReadDataFromExcelPageFactory:91 - searched for cakezone restaurant
+2022-08-22 12:08:515 INFO  swiggyReadDataFromExcelPageFactory:98 - Restaurant suggestions displayed
+2022-08-22 12:08:701 INFO  swiggyReadDataFromExcelPageFactory:110 - Screenshot taken
+2022-08-22 12:08:117 INFO  Browser:36 - Browser closed
+2022-08-22 12:08:978 INFO  Browser:30 - Browser Opened
+2022-08-22 12:08:496 INFO  swiggyLocationnPageFactory:71 - Entering desired location
+2022-08-22 12:08:966 INFO  swiggyLocationnPageFactory:77 - Selecting desired location
+2022-08-22 12:08:721 INFO  swiggyReadDataFromExcelPageFactory:84 - search field clicked
+2022-08-22 12:08:20 INFO  swiggyReadDataFromExcelPageFactory:131 - Invalid restaurant name: No suggestions
+2022-08-22 12:08:141 INFO  swiggyReadDataFromExcelPageFactory:131 - Invalid restaurant name: No suggestions
+2022-08-22 12:08:264 INFO  swiggyReadDataFromExcelPageFactory:146 - Invalid food name: No suggestions
+2022-08-22 12:08:353 INFO  swiggyReadDataFromExcelPageFactory:146 - Invalid food name: No suggestions
+2022-08-22 12:08:106 INFO  Browser:36 - Browser closed
+2022-08-22 12:08:958 INFO  Browser:30 - Browser Opened
+2022-08-22 12:08:532 INFO  swiggyLocationnPageFactory:71 - Entering desired location
+2022-08-22 12:08:975 INFO  swiggyLocationnPageFactory:77 - Selecting desired location
+2022-08-22 12:08:798 INFO  swiggyReadDataFromExcelPageFactory:84 - search field clicked
+2022-08-22 12:08:936 INFO  swiggyReadDataFromExcelPageFactory:167 - Valid restaurant name:suggestions displayed
+2022-08-22 12:08:759 INFO  swiggyReadDataFromExcelPageFactory:176 - Selected valid restaurant
+2022-08-22 12:08:961 INFO  swiggyReadDataFromExcelPageFactory:110 - Screenshot taken
+2022-08-22 12:08:55 INFO  Browser:36 - Browser closed
+2022-08-22 12:08:858 INFO  Browser:30 - Browser Opened
+2022-08-22 12:08:667 INFO  swiggyLocationnPageFactory:71 - Entering desired location
+2022-08-22 12:08:94 INFO  swiggyLocationnPageFactory:77 - Selecting desired location
+2022-08-22 12:08:905 INFO  swiggyReadDataFromExcelPageFactory:84 - search field clicked
+2022-08-22 12:08:218 INFO  swiggyReadDataFromExcelPageFactory:183 - Valid food name:suggestions displayed
+2022-08-22 12:08:11 INFO  swiggyReadDataFromExcelPageFactory:191 - Valid restaurant and food name:suggestions displayed
+2022-08-22 12:08:166 INFO  swiggyReadDataFromExcelPageFactory:110 - Screenshot taken
+2022-08-22 12:08:567 INFO  Browser:36 - Browser closed
+2022-08-22 12:08:476 INFO  Browser:30 - Browser Opened
+2022-08-22 12:08:73 INFO  swiggyLocationnPageFactory:71 - Entering desired location
+2022-08-22 12:08:523 INFO  swiggyLocationnPageFactory:77 - Selecting desired location
+2022-08-22 12:08:233 INFO  swiggyReadDataFromExcelPageFactory:84 - search field clicked
+2022-08-22 12:08:419 INFO  swiggyReadDataFromExcelPageFactory:110 - Screenshot taken
+2022-08-22 12:08:466 INFO  swiggyReadDataFromExcelPageFactory:198 - Popular cuisines displayed
+2022-08-22 12:08:510 INFO  swiggyReadDataFromExcelPageFactory:191 - Valid restaurant and food name:suggestions displayed
+2022-08-22 12:08:673 INFO  swiggyReadDataFromExcelPageFactory:110 - Screenshot taken
+2022-08-22 12:08:111 INFO  Browser:36 - Browser closed
+2022-08-22 12:08:910 INFO  Browser:30 - Browser Opened
+2022-08-22 12:08:470 INFO  swiggyLocationnPageFactory:71 - Entering desired location
+2022-08-22 12:08:984 INFO  swiggyLocationnPageFactory:77 - Selecting desired location
+2022-08-22 12:08:717 INFO  swiggyReadDataFromExcelPageFactory:84 - search field clicked
+2022-08-22 12:08:955 INFO  swiggyReadDataFromExcelPageFactory:183 - Valid food name:suggestions displayed
+2022-08-22 12:08:675 INFO  swiggyReadDataFromExcelPageFactory:191 - Valid restaurant and food name:suggestions displayed
+2022-08-22 12:08:300 INFO  swiggyReadDataFromExcelPageFactory:227 - Restaurant section validated
+2022-08-22 12:08:471 INFO  swiggyReadDataFromExcelPageFactory:110 - Screenshot taken
+2022-08-22 12:08:89 INFO  swiggyReadDataFromExcelPageFactory:234 - Dishes section validated
+2022-08-22 12:08:239 INFO  swiggyReadDataFromExcelPageFactory:110 - Screenshot taken
+2022-08-22 12:08:420 INFO  Browser:36 - Browser closed
+2022-08-22 12:08:917 INFO  Browser:30 - Browser Opened
+2022-08-22 12:08:550 INFO  swiggyLocationnPageFactory:71 - Entering desired location
+2022-08-22 12:08:126 INFO  swiggyLocationnPageFactory:77 - Selecting desired location
+2022-08-22 12:08:128 INFO  swiggyReadDataFromExcelPageFactory:84 - search field clicked
+2022-08-22 12:08:303 INFO  swiggyReadDataFromExcelPageFactory:183 - Valid food name:suggestions displayed
+2022-08-22 12:08:169 INFO  swiggyReadDataFromExcelPageFactory:191 - Valid restaurant and food name:suggestions displayed
+2022-08-22 12:08:833 INFO  swiggyReadDataFromExcelPageFactory:241 - SortBy validated
+2022-08-22 12:08:935 INFO  swiggyReadDataFromExcelPageFactory:253 - Rating High to Low selected
+2022-08-22 12:08:205 INFO  swiggyReadDataFromExcelPageFactory:259 - Price low to high selected
+2022-08-22 12:08:536 INFO  swiggyReadDataFromExcelPageFactory:265 - Filtered by Rating 
+2022-08-22 12:08:693 INFO  swiggyReadDataFromExcelPageFactory:110 - Screenshot taken
+2022-08-22 12:08:97 INFO  Browser:36 - Browser closed
+2022-08-22 12:08:824 INFO  Browser:30 - Browser Opened
+2022-08-22 12:08:238 INFO  swiggyLocationnPageFactory:71 - Entering desired location
+2022-08-22 12:08:677 INFO  swiggyLocationnPageFactory:77 - Selecting desired location
+2022-08-22 12:08:681 INFO  swiggyAddToCartPageFactory:64 - Clicking on addToCart section
+2022-08-22 12:08:615 INFO  swiggyAddToCartPageFactory:74 - Secure Checkout page displayed
+2022-08-22 12:08:649 INFO  swiggyAddToCartPageFactory:84 - Your cart is empty
+2022-08-22 12:08:778 INFO  swiggyReadDataFromExcelPageFactory:110 - Screenshot taken
+2022-08-22 12:08:864 INFO  Browser:36 - Browser closed
+2022-08-22 12:08:643 INFO  Browser:30 - Browser Opened
+2022-08-22 12:08:171 INFO  swiggyLocationnPageFactory:71 - Entering desired location
+2022-08-22 12:08:680 INFO  swiggyLocationnPageFactory:77 - Selecting desired location
+2022-08-22 12:08:681 INFO  swiggyAddToCartPageFactory:89 - Clicking on search field
+2022-08-22 12:08:965 INFO  swiggyAddToCartPageFactory:97 - Entered Hotel Durga
+2022-08-22 12:08:336 INFO  swiggyAddToCartPageFactory:103 - Hotel durga restaurant menu displayed
+2022-08-22 12:08:255 INFO  swiggyReadDataFromExcelPageFactory:110 - Screenshot taken
+2022-08-22 12:08:335 INFO  Browser:36 - Browser closed
+2022-08-22 12:08:106 INFO  Browser:30 - Browser Opened
+2022-08-22 12:08:342 INFO  swiggyLocationnPageFactory:71 - Entering desired location
+2022-08-22 12:08:792 INFO  swiggyLocationnPageFactory:77 - Selecting desired location
+2022-08-22 12:08:793 INFO  swiggyAddToCartPageFactory:89 - Clicking on search field
+2022-08-22 12:08:668 INFO  swiggyAddToCartPageFactory:97 - Entered Hotel Durga
+2022-08-22 12:08:246 INFO  swiggyAddToCartPageFactory:103 - Hotel durga restaurant menu displayed
+2022-08-22 12:08:325 INFO  swiggyAddToCartPageFactory:117 - Adding burger
+2022-08-22 12:08:385 INFO  swiggyAddToCartPageFactory:120 - Adding combo
+2022-08-22 12:08:499 INFO  swiggyAddToCartPageFactory:123 - Adding quick bites
+2022-08-22 12:08:623 INFO  swiggyAddToCartPageFactory:142 - Increasing the quantity of food
+2022-08-22 12:08:139 INFO  Browser:36 - Browser closed
+2022-08-22 12:08:853 INFO  Browser:30 - Browser Opened
+2022-08-22 12:08:183 INFO  swiggyLocationnPageFactory:71 - Entering desired location
+2022-08-22 12:08:612 INFO  swiggyLocationnPageFactory:77 - Selecting desired location
+2022-08-22 12:08:614 INFO  swiggyAddToCartPageFactory:89 - Clicking on search field
+2022-08-22 12:08:590 INFO  swiggyAddToCartPageFactory:97 - Entered Hotel Durga
+2022-08-22 12:08:974 INFO  swiggyAddToCartPageFactory:103 - Hotel durga restaurant menu displayed
+2022-08-22 12:08:61 INFO  swiggyAddToCartPageFactory:117 - Adding burger
+2022-08-22 12:08:123 INFO  swiggyAddToCartPageFactory:120 - Adding combo
+2022-08-22 12:08:249 INFO  swiggyAddToCartPageFactory:123 - Adding quick bites
+2022-08-22 12:08:376 INFO  swiggyAddToCartPageFactory:142 - Increasing the quantity of food
+2022-08-22 12:08:861 INFO  Browser:36 - Browser closed
+2022-08-22 12:08:578 INFO  Browser:30 - Browser Opened
+2022-08-22 12:08:943 INFO  swiggyLocationnPageFactory:71 - Entering desired location
+2022-08-22 12:08:452 INFO  swiggyLocationnPageFactory:77 - Selecting desired location
+2022-08-22 12:08:123 INFO  swiggyReadDataFromExcelPageFactory:84 - search field clicked
+2022-08-22 12:08:260 INFO  swiggyReadDataFromExcelPageFactory:91 - searched for cakezone restaurant
+2022-08-22 12:08:95 INFO  swiggyReadDataFromExcelPageFactory:39 - Selecting cakezone for ordering cakes
+2022-08-22 12:08:684 INFO  swiggyReadDataFromExcelPageFactory:70 - Validated read data from excel
+2022-08-22 12:08:07 INFO  swiggyReadDataFromExcelPageFactory:70 - Validated read data from excel
+2022-08-22 12:08:80 INFO  swiggyAddToCartPageFactory:136 - Checkout clicked and redirected to secure checkout page
+2022-08-22 12:08:221 INFO  swiggyReadDataFromExcelPageFactory:110 - Screenshot taken
+2022-08-22 12:08:302 INFO  Browser:36 - Browser closed
+2022-08-22 12:08:32 INFO  Browser:30 - Browser Opened
+2022-08-22 12:08:389 INFO  swiggyLocationnPageFactory:71 - Entering desired location
+2022-08-22 12:08:889 INFO  swiggyLocationnPageFactory:77 - Selecting desired location
+2022-08-22 12:08:824 INFO  swiggyFiltersOnHomepagePageFactory:43 - Clicking on filter section
+2022-08-22 12:08:122 INFO  swiggyReadDataFromExcelPageFactory:110 - Screenshot taken
+2022-08-22 12:08:456 INFO  swiggyFiltersOnHomepagePageFactory:61 - Selecting checkboxes
+2022-08-22 12:08:561 INFO  swiggyFiltersOnHomepagePageFactory:66 - Filtering according to checkboxes selected
+2022-08-22 12:08:880 INFO  swiggyReadDataFromExcelPageFactory:110 - Screenshot taken
+2022-08-22 12:08:966 INFO  Browser:36 - Browser closed
+2022-08-22 12:08:713 INFO  Browser:30 - Browser Opened
+2022-08-22 12:08:127 INFO  swiggyLocationnPageFactory:71 - Entering desired location
+2022-08-22 12:08:575 INFO  swiggyLocationnPageFactory:77 - Selecting desired location
+2022-08-22 12:08:793 INFO  swiggyFiltersOnHomepagePageFactory:43 - Clicking on filter section
+2022-08-22 12:08:101 INFO  swiggyReadDataFromExcelPageFactory:110 - Screenshot taken
+2022-08-22 12:08:445 INFO  swiggyFiltersOnHomepagePageFactory:61 - Selecting checkboxes
+2022-08-22 12:08:742 INFO  swiggyReadDataFromExcelPageFactory:110 - Screenshot taken
+2022-08-22 12:08:794 INFO  swiggyFiltersOnHomepagePageFactory:73 - Clearing the selected checkbox filter
+2022-08-22 12:08:85 INFO  swiggyReadDataFromExcelPageFactory:110 - Screenshot taken
+2022-08-22 12:08:490 INFO  Browser:36 - Browser closed
+2022-08-22 12:08:348 INFO  Browser:30 - Browser Opened
+2022-08-22 12:08:802 INFO  swiggyLocationnPageFactory:71 - Entering desired location
+2022-08-22 12:08:374 INFO  swiggyLocationnPageFactory:77 - Selecting desired location
+2022-08-22 12:08:449 INFO  swiggyHelpPageFactory:44 - Opening help section
+2022-08-22 12:08:474 INFO  swiggyHelpPageFactory:53 - Help & Support verified
+2022-08-22 12:08:645 INFO  swiggyReadDataFromExcelPageFactory:110 - Screenshot taken
+2022-08-22 12:08:747 INFO  swiggyHelpPageFactory:61 - Help related to Partner onboarding
+2022-08-22 12:08:768 INFO  swiggyHelpPageFactory:87 - Validated Partner onboarding
+2022-08-22 12:08:908 INFO  swiggyReadDataFromExcelPageFactory:110 - Screenshot taken
+2022-08-22 12:08:24 INFO  swiggyHelpPageFactory:69 - Help related to legal doubts
+2022-08-22 12:08:114 INFO  swiggyHelpPageFactory:98 - Validated Legal
+2022-08-22 12:08:246 INFO  swiggyReadDataFromExcelPageFactory:110 - Screenshot taken
+2022-08-22 12:08:339 INFO  swiggyHelpPageFactory:77 - Help related to FAQs
+2022-08-22 12:08:487 INFO  swiggyHelpPageFactory:109 - Validated FAQs
+2022-08-22 12:08:614 INFO  swiggyReadDataFromExcelPageFactory:110 - Screenshot taken
+2022-08-22 12:08:720 INFO  Browser:36 - Browser closed
+2022-08-22 12:08:812 INFO  Browser:30 - Browser Opened
+2022-08-22 12:08:302 INFO  swiggyLocationnPageFactory:71 - Entering desired location
+2022-08-22 12:08:754 INFO  swiggyLocationnPageFactory:77 - Selecting desired location
+2022-08-22 12:08:459 INFO  swiggyOffersPageFactory:43 - Opening offers section
+2022-08-22 12:08:594 INFO  swiggyReadDataFromExcelPageFactory:110 - Screenshot taken
+2022-08-22 12:08:620 INFO  swiggyOffersPageFactory:58 - Validating restaurant related offers
+2022-08-22 12:08:32 INFO  Browser:36 - Browser closed
+2022-08-22 12:08:776 INFO  Browser:30 - Browser Opened
+2022-08-22 12:08:102 INFO  swiggyLocationnPageFactory:71 - Entering desired location
+2022-08-22 12:08:612 INFO  swiggyLocationnPageFactory:77 - Selecting desired location
+2022-08-22 12:08:404 INFO  swiggyOffersPageFactory:43 - Opening offers section
+2022-08-22 12:08:749 INFO  swiggyOffersPageFactory:64 - Fetching payment method related offers
+2022-08-22 12:08:874 INFO  swiggyReadDataFromExcelPageFactory:110 - Screenshot taken
+2022-08-22 12:08:981 INFO  swiggyOffersPageFactory:72 - Fetched payment method related offers
+2022-08-22 12:08:401 INFO  Browser:36 - Browser closed
+2022-08-22 12:08:128 INFO  Browser:30 - Browser Opened
+2022-08-22 12:08:800 INFO  swiggyLocationnPageFactory:71 - Entering desired location
+2022-08-22 12:08:307 INFO  swiggyLocationnPageFactory:77 - Selecting desired location
+2022-08-22 12:08:87 INFO  swiggyOffersPageFactory:43 - Opening offers section
+2022-08-22 12:08:500 INFO  swiggyOffersPageFactory:64 - Fetching payment method related offers
+2022-08-22 12:08:655 INFO  swiggyReadDataFromExcelPageFactory:110 - Screenshot taken
+2022-08-22 12:08:715 INFO  swiggyOffersPageFactory:77 - Terms and condition to be displayed
+2022-08-22 12:08:867 INFO  swiggyReadDataFromExcelPageFactory:110 - Screenshot taken
+2022-08-22 12:08:894 INFO  swiggyOffersPageFactory:84 - Terms and conditions displayed
+2022-08-22 12:08:314 INFO  Browser:36 - Browser closed
+2022-08-22 12:08:82 INFO  Browser:30 - Browser Opened
+2022-08-22 12:08:742 INFO  swiggyLocationnPageFactory:71 - Entering desired location
+2022-08-22 12:08:245 INFO  swiggyLocationnPageFactory:77 - Selecting desired location
+2022-08-22 12:08:08 INFO  swiggyOffersPageFactory:43 - Opening offers section
+2022-08-22 12:08:264 INFO  swiggyOffersPageFactory:64 - Fetching payment method related offers
+2022-08-22 12:08:418 INFO  swiggyReadDataFromExcelPageFactory:110 - Screenshot taken
+2022-08-22 12:08:623 INFO  swiggyReadDataFromExcelPageFactory:110 - Screenshot taken
+2022-08-22 12:08:70 INFO  Browser:36 - Browser closed

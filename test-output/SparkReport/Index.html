@@ -1,0 +1,1966 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Extent</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Grasshopper Report</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Aug 22, 2022 12:34:15 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Aug 22, 2022 12:34:15 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Aug 22, 2022 12:41:13 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>6</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='85%'>
+<b>6</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='14%'><b>1</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='92%'><b>24</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='7%'><b>2</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='95%'><b>102</b> steps passed</small></div>
+<div>
+<small data-tooltip='1%'><b>2</b> steps failed,
+<b>3</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Location Functionality":51.336,"Search functionality":100.513,"Add To Cart functionality":111.753,"Search dishes from Restaurant and Add to Cart":30.43,"Swiggy Filters on HomePage Functionality":38.177,"Swiggy Help functionality":23.216,"Swiggy Offers functionality":61.334
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@Filters</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Offers</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@AddToCart</td>
+<td>2</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>50%</td>
+</tr>
+<tr>
+<td>@Location</td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Search</td>
+<td>7</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Help</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@DishesFromExcel</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>AppName</td>
+<td>SwiggyReports</td>
+</tr>
+<tr>
+<td>user</td>
+<td>Aditya</td>
+</tr>
+<tr>
+<td>build</td>
+<td>1.1</td>
+</tr>
+<tr>
+<td>os</td>
+<td>Windows</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 6,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 24,
+failChild: 2,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 102,
+failGrandChild: 2,
+warningGrandChild: 0,
+skipGrandChild: 3,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script><div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@Filters</a><a class="dropdown-item" href="#">@Offers</a><a class="dropdown-item" href="#">@AddToCart</a><a class="dropdown-item" href="#">@Location</a><a class="dropdown-item" href="#">@Search</a><a class="dropdown-item" href="#">@Help</a><a class="dropdown-item" href="#">@DishesFromExcel</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Location Functionality</p>
+            <p class="text-sm">
+              <span>12:34:16 pm</span> / <span>00:00:51:336</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Location Functionality</h5>
+<span class='badge badge-success'>08.22.2022 12:34:16 pm</span>
+<span class='badge badge-danger'>08.22.2022 12:35:07 pm</span>
+<span class='badge badge-default'>00:00:51:336</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Validate the url of Swiggy Page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.swiggyLocationDefinition.user_is_on_swiggy_page()">
+                <span>Given User is on Swiggy Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyLocationDefinition.user_enters_url_of_swiggy()">
+                <span>When User enters url of Swiggy</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyLocationDefinition.user_should_be_navigated_to_swiggy_page()">
+                <span>Then User should be navigated to Swiggy page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="8"><span class="badge log pass-bg mr-2">Pass</span>Check if the Delivery Location field is giving suggestions for valid city names</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="9"><span class="badge log pass-bg mr-2">Pass</span>Check if the Delivery Location field is giving suggestions for valid city names</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User is on Swiggy Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enters Valid "Pune" and get the list of suggestions</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User should be able to get suggestions for valid city names</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="15"><span class="badge log pass-bg mr-2">Pass</span>Check if the Delivery Location field is giving suggestions for valid city names</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User is on Swiggy Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enters Valid "Bangalore" and get the list of suggestions</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User should be able to get suggestions for valid city names</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="21"><span class="badge log pass-bg mr-2">Pass</span>Check if the Delivery Location field is giving suggestions for Invalid city names</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.swiggyLocationDefinition.user_is_on_swiggy_page()">
+                <span>Given User is on Swiggy Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyLocationDefinition.user_enters_invalid_city_names(io.cucumber.datatable.DataTable)">
+                <span>When User enters Invalid city names</span>
+      <div><table class='markup-table table '><tr><td>location</td></tr><tr><td>gsadhdj</td></tr><tr><td>231265273</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyLocationDefinition.user_should_not_be_able_to_get_suggestions_for_invalid_city_names_and_error_message_should_be_displayed()">
+                <span>Then User should not be able to get suggestions for Invalid city names and error message should be displayed</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="27"><span class="badge log pass-bg mr-2">Pass</span>Check if User is able to enter other location after clicking on Clear button</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.swiggyLocationDefinition.user_is_on_swiggy_page()">
+                <span>Given User is on Swiggy Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyLocationDefinition.user_enters_valid_city_name_and_click_on_find_food_button()">
+                <span>When User enters Valid city name and Click on Find Food button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyLocationDefinition.user_should_be_able_to_view_the_restaurants_for_the_location()">
+                <span>Then User should be able to view the Restaurants for the location</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="33"><span class="badge log pass-bg mr-2">Pass</span>Check if clicking on Locate Me button fetch the current location.</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.swiggyLocationDefinition.user_is_on_swiggy_page()">
+                <span>Given User is on Swiggy Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyLocationDefinition.user_click_on_locate_me_button()">
+                <span>When User click on Locate Me button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyLocationDefinition.user_should_be_able_to_get_restaurants_for_current_location()">
+                <span>Then User should be able to get restaurants for current location</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="39"><span class="badge log pass-bg mr-2">Pass</span>Check if User is able to change the location on Home Page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.swiggyLocationDefinition.user_is_on_swiggy_page()">
+                <span>Given User is on Swiggy Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyLocationDefinition.user_enters_valid_city_name_and_click_on_find_food_button()">
+                <span>When User enters Valid city name and Click on Find Food button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyLocationDefinition.user_clicks_on_location_dropdown_and_changes_the_location()">
+                <span>And User clicks on Location dropdown and changes the location</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyLocationDefinition.user_is_able_to_select_location_and_view_the_restaurants_for_the_location()">
+                <span>Then User is able to select location and view the Restaurants for the location</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="46"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Search functionality</p>
+            <p class="text-sm">
+              <span>12:35:07 pm</span> / <span>00:01:40:513</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Search functionality</h5>
+<span class='badge badge-success'>08.22.2022 12:35:07 pm</span>
+<span class='badge badge-danger'>08.22.2022 12:36:48 pm</span>
+<span class='badge badge-default'>00:01:40:513</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=46</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="47"><span class="badge log pass-bg mr-2">Pass</span>Check if User is able to get suggestions for Restaurant names in Search field</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.swiggySearchDefinition.user_is_on_search_page()">
+                <span>Given User is on Search Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggySearchDefinition.user_enters_restaurant_name()">
+                <span>When User enters Restaurant name</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggySearchDefinition.user_should_get_appropriate_suggestions()">
+                <span>Then User should get appropriate suggestions</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="53"><span class="badge log pass-bg mr-2">Pass</span>Check if User is able to get suggestion for Invalid restaurant and food item name</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.swiggySearchDefinition.user_is_on_search_page()">
+                <span>Given User is on Search Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggySearchDefinition.user_enters_invalid_restaurant_name(io.cucumber.datatable.DataTable)">
+                <span>When User enters Invalid restaurant name</span>
+      <div><table class='markup-table table '><tr><td>Restaurant</td></tr><tr><td>southern star</td></tr><tr><td>Ironhill</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggySearchDefinition.user_enters_invalid_food_name(io.cucumber.datatable.DataTable)">
+                <span>When User enters Invalid Food name</span>
+      <div><table class='markup-table table '><tr><td>Food</td></tr><tr><td>abdhfyri</td></tr><tr><td>ejrjk32</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggySearchDefinition.no_suggestions_are_displayed()">
+                <span>Then No suggestions are displayed</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="60"><span class="badge log pass-bg mr-2">Pass</span>Check if User is able to click on suggestions by Restaurant name</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.swiggySearchDefinition.user_is_on_search_page()">
+                <span>Given User is on Search Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggySearchDefinition.user_enters_valid_restaurant_name()">
+                <span>When User enters Valid restaurant name</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggySearchDefinition.user_is_able_to_click_on_suggestions_displayed()">
+                <span>And User is able to click on suggestions displayed</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggySearchDefinition.user_should_be_redirected_to_appropriate_restaurant_result_page()">
+                <span>Then User should be redirected to appropriate Restaurant result page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="67"><span class="badge log pass-bg mr-2">Pass</span>Check if User is able to click on suggestions by Food Items</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.swiggySearchDefinition.user_is_on_search_page()">
+                <span>Given User is on Search Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggySearchDefinition.user_enters_valid_food_item_name()">
+                <span>When User enters Valid food item name</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggySearchDefinition.user_is_able_to_click_on_suggestion_displayed()">
+                <span>And User is able to click on suggestion displayed</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggySearchDefinition.user_should_be_redirected_to_appropriate_food_result_page()">
+                <span>Then User should be redirected to appropriate Food result page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="74"><span class="badge log pass-bg mr-2">Pass</span>Check if User is able to click on Popular Cuisines and get suggestions</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.swiggySearchDefinition.user_is_on_search_page()">
+                <span>Given User is on Search Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggySearchDefinition.user_looks_for_popular_cuisines()">
+                <span>When User looks for Popular cuisines</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggySearchDefinition.clicks_on_desired_popular_cuisines_suggestion()">
+                <span>And Clicks on desired popular cuisines suggestion</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggySearchDefinition.user_should_be_able_to_view_appropriate_restaurants_list_for_that_cuisine()">
+                <span>Then User should be able to view appropriate restaurants list for that cuisine</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="81"><span class="badge log pass-bg mr-2">Pass</span>Check if Restaurants and Dishes section are giving results</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.swiggySearchDefinition.user_is_on_search_page()">
+                <span>Given User is on Search Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggySearchDefinition.user_click_on_valid_food_item()">
+                <span>When User click on Valid food item</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggySearchDefinition.user_is_able_to_see_options_restaurants_and_dishes()">
+                <span>And User is able to see options Restaurants and Dishes</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggySearchDefinition.user_click_on_restaurants_and_dishes()">
+                <span>And User click on Restaurants and Dishes</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggySearchDefinition.user_is_able_to_click_on_them_to_fetch_appropriate_result()">
+                <span>Then User is able to click on them to fetch appropriate result</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="89"><span class="badge log pass-bg mr-2">Pass</span>Check if User is able to sort the search results by different methods</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.swiggySearchDefinition.user_is_on_search_page()">
+                <span>Given User is on Search Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggySearchDefinition.user_click_on_valid_food_item()">
+                <span>When User click on Valid food item</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggySearchDefinition.user_is_able_to_see_options_restaurants_and_dishes()">
+                <span>And User is able to see options Restaurants and Dishes</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggySearchDefinition.user_can_sort_by_different_methods()">
+                <span>And User can sort by different methods</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggySearchDefinition.appropriate_search_results_should_be_displayed()">
+                <span>Then Appropriate search results should be displayed</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="97"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Add To Cart functionality</p>
+            <p class="text-sm">
+              <span>12:36:48 pm</span> / <span>00:01:51:753</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Add To Cart functionality</h5>
+<span class='badge badge-success'>08.22.2022 12:36:48 pm</span>
+<span class='badge badge-danger'>08.22.2022 12:38:39 pm</span>
+<span class='badge badge-default'>00:01:51:753</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=97</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="98"><span class="badge log pass-bg mr-2">Pass</span>Check the behaviour of Cart button when no food item is added</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.swiggyAddToCartDefinition.user_is_already_on_home_page()">
+                <span>Given User is already on Home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyAddToCartDefinition.user_clicks_on_cart_button_without_adding_any_food_item()">
+                <span>When User clicks on Cart button without adding any food item</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyAddToCartDefinition.user_gets_redirected_to_secure_checkout_page()">
+                <span>And User gets redirected to secure checkout page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyAddToCartDefinition.user_should_get_empty_cart_message()">
+                <span>Then User should get empty cart message</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="105"><span class="badge log pass-bg mr-2">Pass</span>Check if User is able to view the list of all Recommended food items</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.swiggyAddToCartDefinition.user_is_already_on_home_page()">
+                <span>Given User is already on Home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyAddToCartDefinition.user_click_on_search_field()">
+                <span>When User click on search field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyAddToCartDefinition.user_enters_valid_restaurant_name_and_click_on_enter()">
+                <span>And User enters Valid Restaurant name and click on enter</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyAddToCartDefinition.user_should_be_able_to_view_recommended_food_items_list()">
+                <span>Then User should be able to view recommended food items list</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="112"><span class="badge log fail-bg mr-2">Fail</span>Check if User is able to add multiple food items from same restaurant</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.swiggyAddToCartDefinition.user_is_already_on_home_page()">
+                <span>Given User is already on Home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyAddToCartDefinition.user_click_on_search_field()">
+                <span>When User click on search field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyAddToCartDefinition.user_enters_valid_restaurant_name_and_click_on_enter()">
+                <span>And User enters Valid Restaurant name and click on enter</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyAddToCartDefinition.user_is_able_to_add_different_desired_food_items()">
+                <span>And User is able to add different desired food items</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="StepDefinition.swiggyAddToCartDefinition.user_is_able_to_increase_or_decrease_the_quantity_of_food_item()">
+                <span>And User is able to increase or decrease the quantity of food item</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]"}
+  (Session info: chrome=104.0.5112.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN51013508', ip: '192.168.29.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.82, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\aavadhoo\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57763}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0d5d0ec77bc2418d51f44a6893293c61
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at PageFactoryy.swiggyAddToCartPageFactory.increaseQuantity(swiggyAddToCartPageFactory.java:144)
+	at StepDefinition.swiggyAddToCartDefinition.user_is_able_to_increase_or_decrease_the_quantity_of_food_item(swiggyAddToCartDefinition.java:63)
+	at ?.User is able to increase or decrease the quantity of food item(file:///C:/Users/aavadhoo/OneDrive%20-%20Capgemini/Desktop/JUnit/com.swiggyyy/src/test/java/FeatureFile/addToCart.feature:25)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinition.swiggyAddToCartDefinition.user_is_able_to_click_on_checkout_button_and_user_should_be_able_to_redirect_to_secure_checkout_page()">
+                <span>Then User is able to click on Checkout button and User should be able to redirect to secure checkout page</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="121"><span class="badge log fail-bg mr-2">Fail</span>Check if User is able to view the total cost and discount in Cart page</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.swiggyAddToCartDefinition.user_is_already_on_home_page()">
+                <span>Given User is already on Home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyAddToCartDefinition.user_click_on_search_field()">
+                <span>When User click on search field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyAddToCartDefinition.user_enters_valid_restaurant_name_and_click_on_enter()">
+                <span>And User enters Valid Restaurant name and click on enter</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyAddToCartDefinition.user_is_able_to_add_different_desired_food_items()">
+                <span>And User is able to add different desired food items</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="StepDefinition.swiggyAddToCartDefinition.user_is_able_to_increase_or_decrease_the_quantity_of_food_item()">
+                <span>And User is able to increase or decrease the quantity of food item</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]"}
+  (Session info: chrome=104.0.5112.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN51013508', ip: '192.168.29.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.82, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\aavadhoo\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57823}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 041a7a33dfd1cb1360f4e1dce8c602d3
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at PageFactoryy.swiggyAddToCartPageFactory.increaseQuantity(swiggyAddToCartPageFactory.java:144)
+	at StepDefinition.swiggyAddToCartDefinition.user_is_able_to_increase_or_decrease_the_quantity_of_food_item(swiggyAddToCartDefinition.java:63)
+	at ?.User is able to increase or decrease the quantity of food item(file:///C:/Users/aavadhoo/OneDrive%20-%20Capgemini/Desktop/JUnit/com.swiggyyy/src/test/java/FeatureFile/addToCart.feature:34)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinition.swiggyAddToCartDefinition.user_is_able_to_click_on_checkout_button_and_user_should_be_able_to_redirect_to_secure_checkout_page()">
+                <span>Then User is able to click on Checkout button and User should be able to redirect to secure checkout page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefinition.swiggyAddToCartDefinition.user_is_able_to_view_total_cost_and_discount_in_cart_page()">
+                <span>Then User is able to view total cost and discount in cart page</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="131"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Search dishes from Restaurant and Add to Cart</p>
+            <p class="text-sm">
+              <span>12:38:39 pm</span> / <span>00:00:30:430</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Search dishes from Restaurant and Add to Cart</h5>
+<span class='badge badge-success'>08.22.2022 12:38:39 pm</span>
+<span class='badge badge-danger'>08.22.2022 12:39:10 pm</span>
+<span class='badge badge-default'>00:00:30:430</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=131</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="132"><span class="badge log pass-bg mr-2">Pass</span>Check if User is able to read data from Excel</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.swiggyReadDataFromExcelDefinition.user_is_on_swiggy_home_page()">
+                <span>Given User is on Swiggy Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyReadDataFromExcelDefinition.user_click_on_search_field_user_enters_valid_restaurant_name_and_click_on_enter()">
+                <span>When User click on search field & User enters Valid Restaurant name and click  on enter</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyReadDataFromExcelDefinition.user_should_be_able_to_read_dishes_names_from_excel_file_and_add_food_items()">
+                <span>And User should be able to read dishes names from Excel file and add Food items</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyReadDataFromExcelDefinition.click_on_check_out_button_and_should_be_redirected_to_secure_checkout_page()">
+                <span>Then Click on CheckOut button and should be redirected to Secure Checkout page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="139"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Swiggy Filters on HomePage Functionality</p>
+            <p class="text-sm">
+              <span>12:39:10 pm</span> / <span>00:00:38:177</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Swiggy Filters on HomePage Functionality</h5>
+<span class='badge badge-success'>08.22.2022 12:39:10 pm</span>
+<span class='badge badge-danger'>08.22.2022 12:39:48 pm</span>
+<span class='badge badge-default'>00:00:38:177</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=139</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="140"><span class="badge log pass-bg mr-2">Pass</span>Check if User is able to click on Cuisines checkboxes and get Restaurants accordingly</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.swiggyFiltersOnHomepageDefinition.user_is_on_home_page()">
+                <span>Given User is on Home  Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyFiltersOnHomepageDefinition.user_clicks_on_filter_section()">
+                <span>When User clicks on filter section</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyFiltersOnHomepageDefinition.user_selects_the_appropriate_checkboxes_of_cuisines()">
+                <span>And User selects the appropriate checkboxes of cuisines</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyFiltersOnHomepageDefinition.clicks_on_show_restaurant_button()">
+                <span>And Clicks on Show restaurant button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyFiltersOnHomepageDefinition.appropriate_restaurants_according_to_filter_applied_will_be_displayed()">
+                <span>Then Appropriate restaurants according to filter applied will be displayed</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="148"><span class="badge log pass-bg mr-2">Pass</span>Check if User is able to clear applied filters</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.swiggyFiltersOnHomepageDefinition.user_is_on_home_page()">
+                <span>Given User is on Home  Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyFiltersOnHomepageDefinition.user_clicks_on_filter_section()">
+                <span>When User clicks on filter section</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyFiltersOnHomepageDefinition.user_selects_the_appropriate_checkboxes_of_cuisines()">
+                <span>And User selects the appropriate checkboxes of cuisines</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyFiltersOnHomepageDefinition.user_should_be_able_to_click_on_clear_button()">
+                <span>Then User should be able to click on clear button</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="155"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Swiggy Help functionality</p>
+            <p class="text-sm">
+              <span>12:39:48 pm</span> / <span>00:00:23:216</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Swiggy Help functionality</h5>
+<span class='badge badge-success'>08.22.2022 12:39:48 pm</span>
+<span class='badge badge-danger'>08.22.2022 12:40:11 pm</span>
+<span class='badge badge-default'>00:00:23:216</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=155</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="156"><span class="badge log pass-bg mr-2">Pass</span>Check if User is able to access Help Page to clarify basic doubts</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.swiggyHelpDefinition.user_is_on_home_page()">
+                <span>Given User is on  Home  Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyHelpDefinition.user_clicks_on_help_section()">
+                <span>When User clicks on Help section</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyHelpDefinition.user_is_redirected_to_help_and_support_page()">
+                <span>And User is redirected to Help and Support Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyHelpDefinition.user_should_be_able_to_resolve_doubts_related_to_partner_onboarding_legal_and_fa_qs()">
+                <span>Then User should be able to resolve doubts related to Partner Onboarding, Legal and FAQs</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="163"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Swiggy Offers functionality</p>
+            <p class="text-sm">
+              <span>12:40:11 pm</span> / <span>00:01:01:334</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Swiggy Offers functionality</h5>
+<span class='badge badge-success'>08.22.2022 12:40:11 pm</span>
+<span class='badge badge-danger'>08.22.2022 12:41:13 pm</span>
+<span class='badge badge-default'>00:01:01:334</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=163</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="164"><span class="badge log pass-bg mr-2">Pass</span>Check if User is able to get Restaurant offers</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.swiggyOffersDefinition.user_is_on_home_page()">
+                <span>Given User is on Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyOffersDefinition.user_clicks_on_offers_button()">
+                <span>When User clicks on Offers button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyOffersDefinition.user_clicks_on_restaurant_offers()">
+                <span>And User clicks on Restaurant offers</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyOffersDefinition.user_should_get_all_the_list_of_discounts_applicable_on_restaurants()">
+                <span>Then User should get all the list of discounts applicable on Restaurants</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="171"><span class="badge log pass-bg mr-2">Pass</span>Check if User is able to get Payment Offers/Coupons</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.swiggyOffersDefinition.user_is_on_home_page()">
+                <span>Given User is on Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyOffersDefinition.user_clicks_on_offers_button()">
+                <span>When User clicks on Offers button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyOffersDefinition.user_clicks_on_payment_offers_coupons()">
+                <span>And User clicks on Payment offers/Coupons</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyOffersDefinition.user_should_get_all_the_list_of_available_coupons()">
+                <span>Then User should get all the list of available coupons</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="178"><span class="badge log pass-bg mr-2">Pass</span>Check if User is able to click on More in Coupons and get the terms and conditions of the Coupon code</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.swiggyOffersDefinition.user_is_on_home_page()">
+                <span>Given User is on Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyOffersDefinition.user_clicks_on_offers_button()">
+                <span>When User clicks on Offers button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyOffersDefinition.user_clicks_on_payment_offers_coupons()">
+                <span>And User clicks on Payment offers/Coupons</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyOffersDefinition.user_click_on_more_in_coupon()">
+                <span>And User Click on more in Coupon</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyOffersDefinition.user_should_get_the_terms_and_conditions_of_the_coupon_code()">
+                <span>Then User should get the terms and conditions of the Coupon code</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="186"><span class="badge log pass-bg mr-2">Pass</span>Check if User is able to copy the Coupon code</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinition.swiggyOffersDefinition.user_is_on_home_page()">
+                <span>Given User is on Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyOffersDefinition.user_clicks_on_offers_button()">
+                <span>When User clicks on Offers button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyOffersDefinition.user_clicks_on_payment_offers_coupons()">
+                <span>And User clicks on Payment offers/Coupons</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyOffersDefinition.user_clicks_on_copy_code_button()">
+                <span>And User clicks on Copy Code button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinition.swiggyOffersDefinition.the_code_is_copied()">
+                <span>Then The code is copied</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">7</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@Filters</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Filters</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:39:10 pm</td>
+<td>
+<a href="#" class="linked" test-id='139' id='140'>Check if User is able to click on Cuisines checkboxes and get Restaurants accordingly</a>
+<div class="">
+<span class="badge badge-default">Swiggy Filters on HomePage Functionality.Check if User is able to click on Cuisines checkboxes and get Restaurants accordingly</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:39:25 pm</td>
+<td>
+<a href="#" class="linked" test-id='139' id='148'>Check if User is able to clear applied filters</a>
+<div class="">
+<span class="badge badge-default">Swiggy Filters on HomePage Functionality.Check if User is able to clear applied filters</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>4</span>
+</span>
+<p class="name">@Offers</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Offers</h4>
+<span status="pass" class='badge log pass-bg'>4 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:40:11 pm</td>
+<td>
+<a href="#" class="linked" test-id='163' id='164'>Check if User is able to get Restaurant offers</a>
+<div class="">
+<span class="badge badge-default">Swiggy Offers functionality.Check if User is able to get Restaurant offers</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:40:24 pm</td>
+<td>
+<a href="#" class="linked" test-id='163' id='171'>Check if User is able to get Payment Offers/Coupons</a>
+<div class="">
+<span class="badge badge-default">Swiggy Offers functionality.Check if User is able to get Payment Offers/Coupons</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:40:37 pm</td>
+<td>
+<a href="#" class="linked" test-id='163' id='178'>Check if User is able to click on More in Coupons and get the terms and conditions of the Coupon code</a>
+<div class="">
+<span class="badge badge-default">Swiggy Offers functionality.Check if User is able to click on More in Coupons and get the terms and conditions of the Coupon code</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:40:55 pm</td>
+<td>
+<a href="#" class="linked" test-id='163' id='186'>Check if User is able to copy the Coupon code</a>
+<div class="">
+<span class="badge badge-default">Swiggy Offers functionality.Check if User is able to copy the Coupon code</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@AddToCart</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@AddToCart</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:36:48 pm</td>
+<td>
+<a href="#" class="linked" test-id='97' id='98'>Check the behaviour of Cart button when no food item is added</a>
+<div class="">
+<span class="badge badge-default">Add To Cart functionality.Check the behaviour of Cart button when no food item is added</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:36:57 pm</td>
+<td>
+<a href="#" class="linked" test-id='97' id='105'>Check if User is able to view the list of all Recommended food items</a>
+<div class="">
+<span class="badge badge-default">Add To Cart functionality.Check if User is able to view the list of all Recommended food items</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:37:10 pm</td>
+<td>
+<a href="#" class="linked" test-id='97' id='112'>Check if User is able to add multiple food items from same restaurant</a>
+<div class="">
+<span class="badge badge-default">Add To Cart functionality.Check if User is able to add multiple food items from same restaurant</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:37:55 pm</td>
+<td>
+<a href="#" class="linked" test-id='97' id='121'>Check if User is able to view the total cost and discount in Cart page</a>
+<div class="">
+<span class="badge badge-default">Add To Cart functionality.Check if User is able to view the total cost and discount in Cart page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>8</span>
+</span>
+<p class="name">@Location</p>
+<p class="duration text-sm">8 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Location</h4>
+<span status="pass" class='badge log pass-bg'>8 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:34:16 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Validate the url of Swiggy Page</a>
+<div class="">
+<span class="badge badge-default">Location Functionality.Validate the url of Swiggy Page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:34:20 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='8'>Check if the Delivery Location field is giving suggestions for valid city names</a>
+<div class="">
+<span class="badge badge-default">Location Functionality.Check if the Delivery Location field is giving suggestions for valid city names</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:34:20 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='9'>Check if the Delivery Location field is giving suggestions for valid city names</a>
+<div class="">
+<span class="badge badge-default">Location Functionality.Check if the Delivery Location field is giving suggestions for valid city names</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:34:27 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='15'>Check if the Delivery Location field is giving suggestions for valid city names</a>
+<div class="">
+<span class="badge badge-default">Location Functionality.Check if the Delivery Location field is giving suggestions for valid city names</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:34:33 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='21'>Check if the Delivery Location field is giving suggestions for Invalid city names</a>
+<div class="">
+<span class="badge badge-default">Location Functionality.Check if the Delivery Location field is giving suggestions for Invalid city names</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:34:39 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='27'>Check if User is able to enter other location after clicking on Clear button</a>
+<div class="">
+<span class="badge badge-default">Location Functionality.Check if User is able to enter other location after clicking on Clear button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:34:46 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='33'>Check if clicking on Locate Me button fetch the current location.</a>
+<div class="">
+<span class="badge badge-default">Location Functionality.Check if clicking on Locate Me button fetch the current location.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:34:57 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='39'>Check if User is able to change the location on Home Page</a>
+<div class="">
+<span class="badge badge-default">Location Functionality.Check if User is able to change the location on Home Page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>7</span>
+</span>
+<p class="name">@Search</p>
+<p class="duration text-sm">7 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Search</h4>
+<span status="pass" class='badge log pass-bg'>7 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:35:07 pm</td>
+<td>
+<a href="#" class="linked" test-id='46' id='47'>Check if User is able to get suggestions for Restaurant names in Search field</a>
+<div class="">
+<span class="badge badge-default">Search functionality.Check if User is able to get suggestions for Restaurant names in Search field</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:35:20 pm</td>
+<td>
+<a href="#" class="linked" test-id='46' id='53'>Check if User is able to get suggestion for Invalid restaurant and food item name</a>
+<div class="">
+<span class="badge badge-default">Search functionality.Check if User is able to get suggestion for Invalid restaurant and food item name</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:35:27 pm</td>
+<td>
+<a href="#" class="linked" test-id='46' id='60'>Check if User is able to click on suggestions by Restaurant name</a>
+<div class="">
+<span class="badge badge-default">Search functionality.Check if User is able to click on suggestions by Restaurant name</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:35:41 pm</td>
+<td>
+<a href="#" class="linked" test-id='46' id='67'>Check if User is able to click on suggestions by Food Items</a>
+<div class="">
+<span class="badge badge-default">Search functionality.Check if User is able to click on suggestions by Food Items</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:35:54 pm</td>
+<td>
+<a href="#" class="linked" test-id='46' id='74'>Check if User is able to click on Popular Cuisines and get suggestions</a>
+<div class="">
+<span class="badge badge-default">Search functionality.Check if User is able to click on Popular Cuisines and get suggestions</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:36:12 pm</td>
+<td>
+<a href="#" class="linked" test-id='46' id='81'>Check if Restaurants and Dishes section are giving results</a>
+<div class="">
+<span class="badge badge-default">Search functionality.Check if Restaurants and Dishes section are giving results</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:36:29 pm</td>
+<td>
+<a href="#" class="linked" test-id='46' id='89'>Check if User is able to sort the search results by different methods</a>
+<div class="">
+<span class="badge badge-default">Search functionality.Check if User is able to sort the search results by different methods</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@Help</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Help</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:39:48 pm</td>
+<td>
+<a href="#" class="linked" test-id='155' id='156'>Check if User is able to access Help Page to clarify basic doubts</a>
+<div class="">
+<span class="badge badge-default">Swiggy Help functionality.Check if User is able to access Help Page to clarify basic doubts</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@DishesFromExcel</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@DishesFromExcel</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:38:39 pm</td>
+<td>
+<a href="#" class="linked" test-id='131' id='132'>Check if User is able to read data from Excel</a>
+<div class="">
+<span class="badge badge-default">Search dishes from Restaurant and Add to Cart.Check if User is able to read data from Excel</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">org.openqa.selenium.NoSuchElementException</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.NoSuchElementException</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:37:21 pm</td>
+<td>
+<a href="#" class="linked" test-id='97' id='118'>And User is able to increase or decrease the quantity of food item</a>
+<div class="">
+<span class="badge badge-default">Add To Cart functionality.Check if User is able to add multiple food items from same restaurant.And User is able to increase or decrease the quantity of food item</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:38:06 pm</td>
+<td>
+<a href="#" class="linked" test-id='97' id='127'>And User is able to increase or decrease the quantity of food item</a>
+<div class="">
+<span class="badge badge-default">Add To Cart functionality.Check if User is able to view the total cost and discount in Cart page.And User is able to increase or decrease the quantity of food item</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

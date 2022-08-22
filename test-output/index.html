@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\aavadhoo\OneDrive - Capgemini\Desktop\JUnit\com.swiggyyy\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">26 methods, 2 failed,   24 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.testRunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;Check if User is able to view the total cost and discount in Cart page&quot;, &quot;Optional[Add To Cart func...)">runScenario("Check if User is able to view the total cost and discount in Cart page", "Optional[Add To Cart func...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.testRunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;Check if User is able to add multiple food items from same restaurant&quot;, &quot;Optional[Add To Cart funct...)">runScenario("Check if User is able to add multiple food items from same restaurant", "Optional[Add To Cart funct...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.testRunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;Check if User is able to click on suggestions by Food Items&quot;, &quot;Optional[Search functionality]&quot;)">runScenario("Check if User is able to click on suggestions by Food Items", "Optional[Search functionality]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.testRunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;Check if User is able to get suggestion for Invalid restaurant and food item name&quot;, &quot;Optional[Searc...)">runScenario("Check if User is able to get suggestion for Invalid restaurant and food item name", "Optional[Searc...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.testRunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;Check if User is able to click on Popular Cuisines and get suggestions&quot;, &quot;Optional[Search functiona...)">runScenario("Check if User is able to click on Popular Cuisines and get suggestions", "Optional[Search functiona...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.testRunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;Check if User is able to change the location on Home Page&quot;, &quot;Optional[Location Functionality]&quot;)">runScenario("Check if User is able to change the location on Home Page", "Optional[Location Functionality]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.testRunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;Check if User is able to click on More in Coupons and get the terms and conditions of the Coupon co...)">runScenario("Check if User is able to click on More in Coupons and get the terms and conditions of the Coupon co...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.testRunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;Validate the url of Swiggy Page&quot;, &quot;Optional[Location Functionality]&quot;)">runScenario("Validate the url of Swiggy Page", "Optional[Location Functionality]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.testRunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;Check if User is able to get suggestions for Restaurant names in Search field&quot;, &quot;Optional[Search fu...)">runScenario("Check if User is able to get suggestions for Restaurant names in Search field", "Optional[Search fu...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.testRunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;Check if Restaurants and Dishes section are giving results&quot;, &quot;Optional[Search functionality]&quot;)">runScenario("Check if Restaurants and Dishes section are giving results", "Optional[Search functionality]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.testRunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;Check if User is able to click on Cuisines checkboxes and get Restaurants accordingly&quot;, &quot;Optional[S...)">runScenario("Check if User is able to click on Cuisines checkboxes and get Restaurants accordingly", "Optional[S...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.testRunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;Check if User is able to enter other location after clicking on Clear button&quot;, &quot;Optional[Location F...)">runScenario("Check if User is able to enter other location after clicking on Clear button", "Optional[Location F...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.testRunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;Check the behaviour of Cart button when no food item is added&quot;, &quot;Optional[Add To Cart functionality...)">runScenario("Check the behaviour of Cart button when no food item is added", "Optional[Add To Cart functionality...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.testRunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;Check if User is able to view the list of all Recommended food items&quot;, &quot;Optional[Add To Cart functi...)">runScenario("Check if User is able to view the list of all Recommended food items", "Optional[Add To Cart functi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.testRunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;Check if User is able to read data from Excel&quot;, &quot;Optional[Search dishes from Restaurant and Add to ...)">runScenario("Check if User is able to read data from Excel", "Optional[Search dishes from Restaurant and Add to ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.testRunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;Check if User is able to get Restaurant offers&quot;, &quot;Optional[Swiggy Offers functionality]&quot;)">runScenario("Check if User is able to get Restaurant offers", "Optional[Swiggy Offers functionality]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.testRunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;Check if User is able to clear applied filters&quot;, &quot;Optional[Swiggy Filters on HomePage Functionality...)">runScenario("Check if User is able to clear applied filters", "Optional[Swiggy Filters on HomePage Functionality...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.testRunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;Check if the Delivery Location field is giving suggestions for Invalid city names&quot;, &quot;Optional[Locat...)">runScenario("Check if the Delivery Location field is giving suggestions for Invalid city names", "Optional[Locat...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.testRunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;Check if the Delivery Location field is giving suggestions for valid city names&quot;, &quot;Optional[Locatio...)">runScenario("Check if the Delivery Location field is giving suggestions for valid city names", "Optional[Locatio...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.testRunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;Check if User is able to sort the search results by different methods&quot;, &quot;Optional[Search functional...)">runScenario("Check if User is able to sort the search results by different methods", "Optional[Search functional...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.testRunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;Check if the Delivery Location field is giving suggestions for valid city names&quot;, &quot;Optional[Locatio...)">runScenario("Check if the Delivery Location field is giving suggestions for valid city names", "Optional[Locatio...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.testRunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;Check if User is able to access Help Page to clarify basic doubts&quot;, &quot;Optional[Swiggy Help functiona...)">runScenario("Check if User is able to access Help Page to clarify basic doubts", "Optional[Swiggy Help functiona...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.testRunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;Check if User is able to copy the Coupon code&quot;, &quot;Optional[Swiggy Offers functionality]&quot;)">runScenario("Check if User is able to copy the Coupon code", "Optional[Swiggy Offers functionality]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.testRunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;Check if User is able to click on suggestions by Restaurant name&quot;, &quot;Optional[Search functionality]&quot;)">runScenario("Check if User is able to click on suggestions by Restaurant name", "Optional[Search functionality]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.testRunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;Check if User is able to get Payment Offers/Coupons&quot;, &quot;Optional[Swiggy Offers functionality]&quot;)">runScenario("Check if User is able to get Payment Offers/Coupons", "Optional[Swiggy Offers functionality]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestRunner.testRunnerClass" class="method navigator-link" hash-for-method="runScenario(&quot;Check if clicking on Locate Me button fetch the current location.&quot;, &quot;Optional[Location Functionalit...)">runScenario("Check if clicking on Locate Me button fetch the current location.", "Optional[Location Functionalit...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestRunner.testRunnerClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if User is able to view the total cost and discount in Cart page&quot;, &quot;Optional[Add To Cart func...)">
+                  </a> <!-- runScenario("Check if User is able to view the total cost and discount in Cart page", "Optional[Add To Cart func...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if User is able to view the total cost and discount in Cart page", "Optional[Add To Cart functionality]")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]&quot;}
+  (Session info: chrome=104.0.5112.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LIN51013508&apos;, ip: &apos;192.168.29.56&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.82, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\aavadhoo\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57823}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 041a7a33dfd1cb1360f4e1dce8c602d3
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at PageFactoryy.swiggyAddToCartPageFactory.increaseQuantity(swiggyAddToCartPageFactory.java:144)
+	at StepDefinition.swiggyAddToCartDefinition.user_is_able_to_increase_or_decrease_the_quantity_of_food_item(swiggyAddToCartDefinition.java:63)
+	at ✽.User is able to increase or decrease the quantity of food item(file:///C:/Users/aavadhoo/OneDrive%20-%20Capgemini/Desktop/JUnit/com.swiggyyy/src/test/java/FeatureFile/addToCart.feature:34)
+... Removed 5 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if User is able to add multiple food items from same restaurant&quot;, &quot;Optional[Add To Cart funct...)">
+                  </a> <!-- runScenario("Check if User is able to add multiple food items from same restaurant", "Optional[Add To Cart funct...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if User is able to add multiple food items from same restaurant", "Optional[Add To Cart functionality]")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]&quot;}
+  (Session info: chrome=104.0.5112.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LIN51013508&apos;, ip: &apos;192.168.29.56&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.82, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\aavadhoo\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57763}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0d5d0ec77bc2418d51f44a6893293c61
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at PageFactoryy.swiggyAddToCartPageFactory.increaseQuantity(swiggyAddToCartPageFactory.java:144)
+	at StepDefinition.swiggyAddToCartDefinition.user_is_able_to_increase_or_decrease_the_quantity_of_food_item(swiggyAddToCartDefinition.java:63)
+	at ✽.User is able to increase or decrease the quantity of food item(file:///C:/Users/aavadhoo/OneDrive%20-%20Capgemini/Desktop/JUnit/com.swiggyyy/src/test/java/FeatureFile/addToCart.feature:25)
+... Removed 5 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestRunner.testRunnerClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if User is able to click on suggestions by Food Items&quot;, &quot;Optional[Search functionality]&quot;)">
+                  </a> <!-- runScenario("Check if User is able to click on suggestions by Food Items", "Optional[Search functionality]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if User is able to click on suggestions by Food Items", "Optional[Search functionality]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if User is able to get suggestion for Invalid restaurant and food item name&quot;, &quot;Optional[Searc...)">
+                  </a> <!-- runScenario("Check if User is able to get suggestion for Invalid restaurant and food item name", "Optional[Searc...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if User is able to get suggestion for Invalid restaurant and food item name", "Optional[Search functionality]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if User is able to click on Popular Cuisines and get suggestions&quot;, &quot;Optional[Search functiona...)">
+                  </a> <!-- runScenario("Check if User is able to click on Popular Cuisines and get suggestions", "Optional[Search functiona...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if User is able to click on Popular Cuisines and get suggestions", "Optional[Search functionality]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if User is able to change the location on Home Page&quot;, &quot;Optional[Location Functionality]&quot;)">
+                  </a> <!-- runScenario("Check if User is able to change the location on Home Page", "Optional[Location Functionality]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if User is able to change the location on Home Page", "Optional[Location Functionality]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if User is able to click on More in Coupons and get the terms and conditions of the Coupon co...)">
+                  </a> <!-- runScenario("Check if User is able to click on More in Coupons and get the terms and conditions of the Coupon co...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if User is able to click on More in Coupons and get the terms and conditions of the Coupon code", "Optional[Swiggy Offers functionality]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate the url of Swiggy Page&quot;, &quot;Optional[Location Functionality]&quot;)">
+                  </a> <!-- runScenario("Validate the url of Swiggy Page", "Optional[Location Functionality]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate the url of Swiggy Page", "Optional[Location Functionality]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if User is able to get suggestions for Restaurant names in Search field&quot;, &quot;Optional[Search fu...)">
+                  </a> <!-- runScenario("Check if User is able to get suggestions for Restaurant names in Search field", "Optional[Search fu...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if User is able to get suggestions for Restaurant names in Search field", "Optional[Search functionality]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if Restaurants and Dishes section are giving results&quot;, &quot;Optional[Search functionality]&quot;)">
+                  </a> <!-- runScenario("Check if Restaurants and Dishes section are giving results", "Optional[Search functionality]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if Restaurants and Dishes section are giving results", "Optional[Search functionality]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if User is able to click on Cuisines checkboxes and get Restaurants accordingly&quot;, &quot;Optional[S...)">
+                  </a> <!-- runScenario("Check if User is able to click on Cuisines checkboxes and get Restaurants accordingly", "Optional[S...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if User is able to click on Cuisines checkboxes and get Restaurants accordingly", "Optional[Swiggy Filters on HomePage Functionality]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if User is able to enter other location after clicking on Clear button&quot;, &quot;Optional[Location F...)">
+                  </a> <!-- runScenario("Check if User is able to enter other location after clicking on Clear button", "Optional[Location F...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if User is able to enter other location after clicking on Clear button", "Optional[Location Functionality]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check the behaviour of Cart button when no food item is added&quot;, &quot;Optional[Add To Cart functionality...)">
+                  </a> <!-- runScenario("Check the behaviour of Cart button when no food item is added", "Optional[Add To Cart functionality...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check the behaviour of Cart button when no food item is added", "Optional[Add To Cart functionality]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if User is able to view the list of all Recommended food items&quot;, &quot;Optional[Add To Cart functi...)">
+                  </a> <!-- runScenario("Check if User is able to view the list of all Recommended food items", "Optional[Add To Cart functi...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if User is able to view the list of all Recommended food items", "Optional[Add To Cart functionality]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if User is able to read data from Excel&quot;, &quot;Optional[Search dishes from Restaurant and Add to ...)">
+                  </a> <!-- runScenario("Check if User is able to read data from Excel", "Optional[Search dishes from Restaurant and Add to ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if User is able to read data from Excel", "Optional[Search dishes from Restaurant and Add to Cart]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if User is able to get Restaurant offers&quot;, &quot;Optional[Swiggy Offers functionality]&quot;)">
+                  </a> <!-- runScenario("Check if User is able to get Restaurant offers", "Optional[Swiggy Offers functionality]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if User is able to get Restaurant offers", "Optional[Swiggy Offers functionality]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if User is able to clear applied filters&quot;, &quot;Optional[Swiggy Filters on HomePage Functionality...)">
+                  </a> <!-- runScenario("Check if User is able to clear applied filters", "Optional[Swiggy Filters on HomePage Functionality...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if User is able to clear applied filters", "Optional[Swiggy Filters on HomePage Functionality]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if the Delivery Location field is giving suggestions for Invalid city names&quot;, &quot;Optional[Locat...)">
+                  </a> <!-- runScenario("Check if the Delivery Location field is giving suggestions for Invalid city names", "Optional[Locat...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if the Delivery Location field is giving suggestions for Invalid city names", "Optional[Location Functionality]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if the Delivery Location field is giving suggestions for valid city names&quot;, &quot;Optional[Locatio...)">
+                  </a> <!-- runScenario("Check if the Delivery Location field is giving suggestions for valid city names", "Optional[Locatio...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if the Delivery Location field is giving suggestions for valid city names", "Optional[Location Functionality]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if User is able to sort the search results by different methods&quot;, &quot;Optional[Search functional...)">
+                  </a> <!-- runScenario("Check if User is able to sort the search results by different methods", "Optional[Search functional...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if User is able to sort the search results by different methods", "Optional[Search functionality]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if the Delivery Location field is giving suggestions for valid city names&quot;, &quot;Optional[Locatio...)">
+                  </a> <!-- runScenario("Check if the Delivery Location field is giving suggestions for valid city names", "Optional[Locatio...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if the Delivery Location field is giving suggestions for valid city names", "Optional[Location Functionality]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if User is able to access Help Page to clarify basic doubts&quot;, &quot;Optional[Swiggy Help functiona...)">
+                  </a> <!-- runScenario("Check if User is able to access Help Page to clarify basic doubts", "Optional[Swiggy Help functiona...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if User is able to access Help Page to clarify basic doubts", "Optional[Swiggy Help functionality]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if User is able to copy the Coupon code&quot;, &quot;Optional[Swiggy Offers functionality]&quot;)">
+                  </a> <!-- runScenario("Check if User is able to copy the Coupon code", "Optional[Swiggy Offers functionality]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if User is able to copy the Coupon code", "Optional[Swiggy Offers functionality]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if User is able to click on suggestions by Restaurant name&quot;, &quot;Optional[Search functionality]&quot;)">
+                  </a> <!-- runScenario("Check if User is able to click on suggestions by Restaurant name", "Optional[Search functionality]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if User is able to click on suggestions by Restaurant name", "Optional[Search functionality]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if User is able to get Payment Offers/Coupons&quot;, &quot;Optional[Swiggy Offers functionality]&quot;)">
+                  </a> <!-- runScenario("Check if User is able to get Payment Offers/Coupons", "Optional[Swiggy Offers functionality]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if User is able to get Payment Offers/Coupons", "Optional[Swiggy Offers functionality]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if clicking on Locate Me button fetch the current location.&quot;, &quot;Optional[Location Functionalit...)">
+                  </a> <!-- runScenario("Check if clicking on Locate Me button fetch the current location.", "Optional[Location Functionalit...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if clicking on Locate Me button fetch the current location.", "Optional[Location Functionality]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\aavadhoo\OneDrive - Capgemini\Desktop\JUnit\com.swiggyyy\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;swiggyListeners.ListnerImplementation&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestRunner.testRunnerClass&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(26);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'TestRunner.testRunnerClass')
+data.setCell(0, 3, 44804);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'TestRunner.testRunnerClass')
+data.setCell(1, 3, 44720);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'TestRunner.testRunnerClass')
+data.setCell(2, 3, 30438);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'TestRunner.testRunnerClass')
+data.setCell(3, 3, 23230);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'TestRunner.testRunnerClass')
+data.setCell(4, 3, 22522);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'TestRunner.testRunnerClass')
+data.setCell(5, 3, 18676);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'TestRunner.testRunnerClass')
+data.setCell(6, 3, 17912);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'TestRunner.testRunnerClass')
+data.setCell(7, 3, 17756);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'TestRunner.testRunnerClass')
+data.setCell(8, 3, 17544);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'TestRunner.testRunnerClass')
+data.setCell(9, 3, 17307);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'TestRunner.testRunnerClass')
+data.setCell(10, 3, 15664);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'TestRunner.testRunnerClass')
+data.setCell(11, 3, 13948);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'TestRunner.testRunnerClass')
+data.setCell(12, 3, 13510);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runScenario')
+data.setCell(13, 2, 'TestRunner.testRunnerClass')
+data.setCell(13, 3, 13368);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runScenario')
+data.setCell(14, 2, 'TestRunner.testRunnerClass')
+data.setCell(14, 3, 12550);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'runScenario')
+data.setCell(15, 2, 'TestRunner.testRunnerClass')
+data.setCell(15, 3, 12470);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'runScenario')
+data.setCell(16, 2, 'TestRunner.testRunnerClass')
+data.setCell(16, 3, 12310);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'runScenario')
+data.setCell(17, 2, 'TestRunner.testRunnerClass')
+data.setCell(17, 3, 11384);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'runScenario')
+data.setCell(18, 2, 'TestRunner.testRunnerClass')
+data.setCell(18, 3, 9787);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'runScenario')
+data.setCell(19, 2, 'TestRunner.testRunnerClass')
+data.setCell(19, 3, 9765);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'runScenario')
+data.setCell(20, 2, 'TestRunner.testRunnerClass')
+data.setCell(20, 3, 6987);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'runScenario')
+data.setCell(21, 2, 'TestRunner.testRunnerClass')
+data.setCell(21, 3, 6863);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'runScenario')
+data.setCell(22, 2, 'TestRunner.testRunnerClass')
+data.setCell(22, 3, 6691);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'runScenario')
+data.setCell(23, 2, 'TestRunner.testRunnerClass')
+data.setCell(23, 3, 6475);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'runScenario')
+data.setCell(24, 2, 'TestRunner.testRunnerClass')
+data.setCell(24, 3, 5798);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'runScenario')
+data.setCell(25, 2, 'TestRunner.testRunnerClass')
+data.setCell(25, 3, 4561);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestRunner.testRunnerClass</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate the url of Swiggy Page", "Optional[Location Functionality]")</span>
+                <span class="method-start">925 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if the Delivery Location field is giving suggestions for valid city names", "Optional[Locatio...)</span>
+                <span class="method-start">5489 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if the Delivery Location field is giving suggestions for valid city names", "Optional[Locatio...)</span>
+                <span class="method-start">11966 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if the Delivery Location field is giving suggestions for Invalid city names", "Optional[Locat...)</span>
+                <span class="method-start">18831 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if User is able to enter other location after clicking on Clear button", "Optional[Location F...)</span>
+                <span class="method-start">24631 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if clicking on Locate Me button fetch the current location.", "Optional[Location Functionalit...)</span>
+                <span class="method-start">31324 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if User is able to change the location on Home Page", "Optional[Location Functionality]")</span>
+                <span class="method-start">42709 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if User is able to get suggestions for Restaurant names in Search field", "Optional[Search fu...)</span>
+                <span class="method-start">52498 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if User is able to get suggestion for Invalid restaurant and food item name", "Optional[Searc...)</span>
+                <span class="method-start">65049 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if User is able to click on suggestions by Restaurant name", "Optional[Search functionality]")</span>
+                <span class="method-start">72037 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if User is able to click on suggestions by Food Items", "Optional[Search functionality]")</span>
+                <span class="method-start">85987 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if User is able to click on Popular Cuisines and get suggestions", "Optional[Search functiona...)</span>
+                <span class="method-start">99498 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if Restaurants and Dishes section are giving results", "Optional[Search functionality]")</span>
+                <span class="method-start">117043 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if User is able to sort the search results by different methods", "Optional[Search functional...)</span>
+                <span class="method-start">134351 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check the behaviour of Cart button when no food item is added", "Optional[Add To Cart functionality...)</span>
+                <span class="method-start">153028 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if User is able to view the list of all Recommended food items", "Optional[Add To Cart functi...)</span>
+                <span class="method-start">162795 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Check if User is able to add multiple food items from same restaurant", "Optional[Add To Cart funct...)</span>
+                <span class="method-start">175266 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Check if User is able to view the total cost and discount in Cart page", "Optional[Add To Cart func...)</span>
+                <span class="method-start">220072 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if User is able to read data from Excel", "Optional[Search dishes from Restaurant and Add to ...)</span>
+                <span class="method-start">264794 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if User is able to click on Cuisines checkboxes and get Restaurants accordingly", "Optional[S...)</span>
+                <span class="method-start">295233 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if User is able to clear applied filters", "Optional[Swiggy Filters on HomePage Functionality...)</span>
+                <span class="method-start">310898 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if User is able to access Help Page to clarify basic doubts", "Optional[Swiggy Help functiona...)</span>
+                <span class="method-start">333421 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if User is able to get Restaurant offers", "Optional[Swiggy Offers functionality]")</span>
+                <span class="method-start">356652 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if User is able to get Payment Offers/Coupons", "Optional[Swiggy Offers functionality]")</span>
+                <span class="method-start">368963 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if User is able to click on More in Coupons and get the terms and conditions of the Coupon co...)</span>
+                <span class="method-start">382332 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if User is able to copy the Coupon code", "Optional[Swiggy Offers functionality]")</span>
+                <span class="method-start">400245 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">418002 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

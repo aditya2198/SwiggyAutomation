@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="4" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="26" time="303.647">
+    <testcase classname="Swiggy Filters on HomePage Functionality" name="Check if User is able to click on Cuisines checkboxes and get Restaurants accordingly" time="8.747">
+        <system-out><![CDATA[Given User is on Home  Page.................................................passed
+When User clicks on filter section..........................................passed
+And User selects the appropriate checkboxes of cuisines.....................passed
+And Clicks on Show restaurant button........................................passed
+Then Appropriate restaurants according to filter applied will be displayed..passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Swiggy Filters on HomePage Functionality" name="Check if User is able to clear applied filters" time="8.046">
+        <system-out><![CDATA[Given User is on Home  Page.................................................passed
+When User clicks on filter section..........................................passed
+And User selects the appropriate checkboxes of cuisines.....................passed
+Then User should be able to click on clear button...........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Swiggy Help functionality" name="Check if User is able to access Help Page to clarify basic doubts" time="5.282">
+        <system-out><![CDATA[Given User is on  Home  Page................................................passed
+When User clicks on Help section............................................passed
+And User is redirected to Help and Support Page.............................passed
+Then User should be able to resolve doubts related to Partner Onboarding, Legal and FAQs.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Location Functionality" name="Validate the url of Swiggy Page" time="3.193">
+        <system-out><![CDATA[Given User is on Swiggy Page................................................passed
+When User enters url of Swiggy..............................................passed
+Then User should be navigated to Swiggy page................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Location Functionality" name="Check if the Delivery Location field is giving suggestions for valid city names" time="5.969">
+        <system-out><![CDATA[Given User is on Swiggy Page................................................passed
+When User enters Valid "Pune" and get the list of suggestions...............passed
+Then User should be able to get suggestions for valid city names............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Location Functionality" name="Check if the Delivery Location field is giving suggestions for valid city names 2" time="6.946">
+        <system-out><![CDATA[Given User is on Swiggy Page................................................passed
+When User enters Valid "Bangalore" and get the list of suggestions..........passed
+Then User should be able to get suggestions for valid city names............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Location Functionality" name="Check if the Delivery Location field is giving suggestions for Invalid city names" time="5.554">
+        <system-out><![CDATA[Given User is on Swiggy Page................................................passed
+When User enters Invalid city names.........................................passed
+Then User should not be able to get suggestions for Invalid city names and error message should be displayed.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Location Functionality" name="Check if User is able to enter other location after clicking on Clear button" time="9.471">
+        <system-out><![CDATA[Given User is on Swiggy Page................................................passed
+When User enters Valid city name and Click on Find Food button..............passed
+Then User should be able to view the Restaurants for the location...........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Location Functionality" name="Check if clicking on Locate Me button fetch the current location." time="33.989">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),'Filters')]&quot;}&#10;  (Session info: chrome=104.0.5112.82)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LIN51013508', ip: '192.168.29.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.82, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\aavadhoo\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64292}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 12123a3c581eb1c80e3d2e25174e9a46&#10;*** Element info: {Using=xpath, value=//span[contains(text(),'Filters')]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given User is on Swiggy Page................................................passed
+When User click on Locate Me button.........................................passed
+Then User should be able to get restaurants for current location............failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Filters')]"}
+  (Session info: chrome=104.0.5112.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN51013508', ip: '192.168.29.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.82, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\aavadhoo\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64292}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 12123a3c581eb1c80e3d2e25174e9a46
+*** Element info: {Using=xpath, value=//span[contains(text(),'Filters')]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at PageFactoryy.swiggyLocationnPageFactory.validateHomePage(swiggyLocationnPageFactory.java:166)
+	at StepDefinition.swiggyLocationDefinition.user_should_be_able_to_get_restaurants_for_current_location(swiggyLocationDefinition.java:111)
+	at ✽.User should be able to get restaurants for current location(file:///C:/Users/aavadhoo/OneDrive%20-%20Capgemini/Desktop/JUnit/com.swiggyyy/src/test/java/FeatureFile/SwiggyLocationn.feature:39)
+]]></failure>
+    </testcase>
+    <testcase classname="Location Functionality" name="Check if User is able to change the location on Home Page" time="9.769">
+        <system-out><![CDATA[Given User is on Swiggy Page................................................passed
+When User enters Valid city name and Click on Find Food button..............passed
+And User clicks on Location dropdown and changes the location...............passed
+Then User is able to select location and view the Restaurants for the location.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Swiggy Offers functionality" name="Check if User is able to get Restaurant offers" time="9.203">
+        <system-out><![CDATA[Given User is on Home Page..................................................passed
+When User clicks on Offers button...........................................passed
+And User clicks on Restaurant offers........................................passed
+Then User should get all the list of discounts applicable on Restaurants....passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Swiggy Offers functionality" name="Check if User is able to get Payment Offers/Coupons" time="6.816">
+        <system-out><![CDATA[Given User is on Home Page..................................................passed
+When User clicks on Offers button...........................................passed
+And User clicks on Payment offers/Coupons...................................passed
+Then User should get all the list of available coupons......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Swiggy Offers functionality" name="Check if User is able to click on More in Coupons and get the terms and conditions of the Coupon code" time="7.16">
+        <system-out><![CDATA[Given User is on Home Page..................................................passed
+When User clicks on Offers button...........................................passed
+And User clicks on Payment offers/Coupons...................................passed
+And User Click on more in Coupon............................................passed
+Then User should get the terms and conditions of the Coupon code............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Swiggy Offers functionality" name="Check if User is able to copy the Coupon code" time="7.312">
+        <system-out><![CDATA[Given User is on Home Page..................................................passed
+When User clicks on Offers button...........................................passed
+And User clicks on Payment offers/Coupons...................................passed
+And User clicks on Copy Code button.........................................passed
+Then The code is copied.....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search dishes from Restaurant and Add to Cart" name="Check if User is able to read data from Excel" time="9.481">
+        <failure message="C:\Users\LAKSHKC\eclipse-workspace\com.swiggyyy\src\test\java\Excel\Dishes Names.xlsx" type="java.io.FileNotFoundException"><![CDATA[Given User is on Swiggy Home Page...........................................passed
+When User click on search field & User enters Valid Restaurant name and click  on enter.passed
+And User should be able to read dishes names from Excel file and add Food items.failed
+Then Click on CheckOut button and should be redirected to Secure Checkout page.skipped
+
+StackTrace:
+java.io.FileNotFoundException: C:\Users\LAKSHKC\eclipse-workspace\com.swiggyyy\src\test\java\Excel\Dishes Names.xlsx
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:302)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:277)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:255)
+	at PageFactoryy.swiggyReadDataFromExcelPageFactory.readExcel(swiggyReadDataFromExcelPageFactory.java:48)
+	at StepDefinition.swiggyReadDataFromExcelDefinition.user_should_be_able_to_read_dishes_names_from_excel_file_and_add_food_items(swiggyReadDataFromExcelDefinition.java:62)
+	at ✽.User should be able to read dishes names from Excel file and add Food items(file:///C:/Users/aavadhoo/OneDrive%20-%20Capgemini/Desktop/JUnit/com.swiggyyy/src/test/java/FeatureFile/searchDishesUsingExcel.feature:7)
+]]></failure>
+    </testcase>
+    <testcase classname="Add To Cart functionality" name="Check the behaviour of Cart button when no food item is added" time="5.79">
+        <system-out><![CDATA[Given User is already on Home page..........................................passed
+When User clicks on Cart button without adding any food item................passed
+And User gets redirected to secure checkout page............................passed
+Then User should get empty cart message.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Add To Cart functionality" name="Check if User is able to view the list of all Recommended food items" time="8.165">
+        <system-out><![CDATA[Given User is already on Home page..........................................passed
+When User click on search field.............................................passed
+And User enters Valid Restaurant name and click on enter....................passed
+Then User should be able to view recommended food items list................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Add To Cart functionality" name="Check if User is able to add multiple food items from same restaurant" time="45.363">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]&quot;}&#10;  (Session info: chrome=104.0.5112.82)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LIN51013508', ip: '192.168.29.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.82, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\aavadhoo\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 6f8c3cad63d1c394b0e956254a46e0cc&#10;*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given User is already on Home page..........................................passed
+When User click on search field.............................................passed
+And User enters Valid Restaurant name and click on enter....................passed
+And User is able to add different desired food items........................passed
+And User is able to increase or decrease the quantity of food item..........failed
+Then User is able to click on Checkout button and User should be able to redirect to secure checkout page.skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]"}
+  (Session info: chrome=104.0.5112.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN51013508', ip: '192.168.29.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.82, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\aavadhoo\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6f8c3cad63d1c394b0e956254a46e0cc
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at PageFactoryy.swiggyAddToCartPageFactory2.increaseQuantity(swiggyAddToCartPageFactory2.java:131)
+	at StepDefinition.swiggyAddToCartDefinitionn.user_is_able_to_increase_or_decrease_the_quantity_of_food_item(swiggyAddToCartDefinitionn.java:81)
+	at ✽.User is able to increase or decrease the quantity of food item(file:///C:/Users/aavadhoo/OneDrive%20-%20Capgemini/Desktop/JUnit/com.swiggyyy/src/test/java/FeatureFile/swiggyAddToCart2.feature:25)
+]]></failure>
+    </testcase>
+    <testcase classname="Add To Cart functionality" name="Check if User is able to view the total cost and discount in Cart page" time="39.874">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]&quot;}&#10;  (Session info: chrome=104.0.5112.82)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LIN51013508', ip: '192.168.29.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.82, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\aavadhoo\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64777}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f3bf01967ce356bcaa90130f5a5f7fac&#10;*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given User is already on Home page..........................................passed
+When User click on search field.............................................passed
+And User enters Valid Restaurant name and click on enter....................passed
+And User is able to add different desired food items........................passed
+And User is able to increase or decrease the quantity of food item..........failed
+Then User is able to click on Checkout button and User should be able to redirect to secure checkout page.skipped
+Then User is able to view total cost and discount in cart page..............skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]"}
+  (Session info: chrome=104.0.5112.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN51013508', ip: '192.168.29.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.82, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\aavadhoo\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64777}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f3bf01967ce356bcaa90130f5a5f7fac
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at PageFactoryy.swiggyAddToCartPageFactory2.increaseQuantity(swiggyAddToCartPageFactory2.java:131)
+	at StepDefinition.swiggyAddToCartDefinitionn.user_is_able_to_increase_or_decrease_the_quantity_of_food_item(swiggyAddToCartDefinitionn.java:81)
+	at ✽.User is able to increase or decrease the quantity of food item(file:///C:/Users/aavadhoo/OneDrive%20-%20Capgemini/Desktop/JUnit/com.swiggyyy/src/test/java/FeatureFile/swiggyAddToCart2.feature:34)
+]]></failure>
+    </testcase>
+    <testcase classname="Search functionality" name="Check if User is able to get suggestions for Restaurant names in Search field" time="7.421">
+        <system-out><![CDATA[Given User is on Search Page................................................passed
+When User enters Restaurant name............................................passed
+Then User should get appropriate suggestions................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search functionality" name="Check if User is able to get suggestion for Invalid restaurant and food item name" time="6.951">
+        <system-out><![CDATA[Given User is on Search Page................................................passed
+When User enters Invalid restaurant name....................................passed
+When User enters Invalid Food name..........................................passed
+Then No suggestions are displayed...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search functionality" name="Check if User is able to click on suggestions by Restaurant name" time="10.804">
+        <system-out><![CDATA[Given User is on Search Page................................................passed
+When User enters Valid restaurant name......................................passed
+And User is able to click on suggestions displayed..........................passed
+Then User should be redirected to appropriate Restaurant result page........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search functionality" name="Check if User is able to click on suggestions by Food Items" time="8.063">
+        <system-out><![CDATA[Given User is on Search Page................................................passed
+When User enters Valid food item name.......................................passed
+And User is able to click on suggestion displayed...........................passed
+Then User should be redirected to appropriate Food result page..............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search functionality" name="Check if User is able to click on Popular Cuisines and get suggestions" time="9.562">
+        <system-out><![CDATA[Given User is on Search Page................................................passed
+When User looks for Popular cuisines........................................passed
+And Clicks on desired popular cuisines suggestion...........................passed
+Then User should be able to view appropriate restaurants list for that cuisine.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search functionality" name="Check if Restaurants and Dishes section are giving results" time="11.624">
+        <system-out><![CDATA[Given User is on Search Page................................................passed
+When User click on Valid food item..........................................passed
+And User is able to see options Restaurants and Dishes......................passed
+And User click on Restaurants and Dishes....................................passed
+Then User is able to click on them to fetch appropriate result..............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search functionality" name="Check if User is able to sort the search results by different methods" time="12.433">
+        <system-out><![CDATA[Given User is on Search Page................................................passed
+When User click on Valid food item..........................................passed
+And User is able to see options Restaurants and Dishes......................passed
+And User can sort by different methods......................................passed
+Then Appropriate search results should be displayed.........................passed
+]]></system-out>
+    </testcase>
+</testsuite>
