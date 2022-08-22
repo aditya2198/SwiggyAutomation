@@ -1,2 +1,0 @@
-file:src/test/java/FeatureFile/Search.feature:39:46
-file:src/test/java/FeatureFile/addToCart.feature:20:29

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="385.557" tests="26" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\aavadhoo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.18.0.20210603-1206\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\aavadhoo\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\Users\aavadhoo\OneDrive - Capgemini\Desktop\JUnit\com.swiggyyy\EMBEDDED"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\aavadhoo"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Users\aavadhoo\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="16.0.1+9-24"/>
+    <property name="user.name" value="aavadhoo"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\aavadhoo\AppData\Local\Temp\"/>
+    <property name="java.version" value="16.0.1"/>
+    <property name="user.dir" value="C:\Users\aavadhoo\OneDrive - Capgemini\Desktop\JUnit\com.swiggyyy"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\aavadhoo\OneDrive - Capgemini\Desktop\JUnit\com.swiggyyy"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\aavadhoo\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/aavadhoo/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205/jre/bin/server;C:/Users/aavadhoo/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205/jre/bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\AdoptOpenJDK\jdk-15.0.0.36-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\aavadhoo\OneDrive - Capgemini\Desktop\TakesScreenshot\apache-maven-3.8.6\bin;C:\Users\aavadhoo\AppData\Local\Microsoft\WindowsApps;C:\Users\aavadhoo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\aavadhoo\AppData\Local\Programs\Git\cmd;C:\Users\aavadhoo\OneDrive - Capgemini\Desktop\selenium\apache-maven-3.8.6\bin;;C:\WINDOWS\system32;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16.0.1+9-24"/>
+    <property name="classworlds.conf" value="C:\Users\aavadhoo\OneDrive - Capgemini\Desktop\JUnit\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7075321798565527628.tmp"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="runScenario" classname="TestRunner.testRunnerClass" time="5.946"/>
+  <testcase name="runScenario" classname="TestRunner.testRunnerClass" time="4.08"/>
+  <testcase name="runScenario" classname="TestRunner.testRunnerClass" time="4.218"/>
+  <testcase name="runScenario" classname="TestRunner.testRunnerClass" time="6.531"/>
+  <testcase name="runScenario" classname="TestRunner.testRunnerClass" time="6.909"/>
+  <testcase name="runScenario" classname="TestRunner.testRunnerClass" time="9.764"/>
+  <testcase name="runScenario" classname="TestRunner.testRunnerClass" time="9.312"/>
+  <testcase name="runScenario" classname="TestRunner.testRunnerClass" time="12.31"/>
+  <testcase name="runScenario" classname="TestRunner.testRunnerClass" time="7.567"/>
+  <testcase name="runScenario" classname="TestRunner.testRunnerClass" time="14.578"/>
+  <testcase name="runScenario" classname="TestRunner.testRunnerClass" time="10.821"/>
+  <testcase name="runScenario" classname="TestRunner.testRunnerClass" time="16.123"/>
+  <testcase name="runScenario" classname="TestRunner.testRunnerClass" time="18.784"/>
+  <testcase name="runScenario" classname="TestRunner.testRunnerClass" time="16.339"/>
+  <testcase name="runScenario" classname="TestRunner.testRunnerClass" time="10.862"/>
+  <testcase name="runScenario" classname="TestRunner.testRunnerClass" time="13.312"/>
+  <testcase name="runScenario" classname="TestRunner.testRunnerClass" time="14.136">
+    <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=104.0.5112.82)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LIN51013508&apos;, ip: &apos;192.168.29.56&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.82, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\aavadhoo\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64750}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4e5bc1e71f80729c7f52d3552f92d149" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=104.0.5112.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN51013508', ip: '192.168.29.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.82, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\aavadhoo\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64750}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e5bc1e71f80729c7f52d3552f92d149
+</failure>
+    <system-out><![CDATA[
+@AddToCart
+Scenario: Check if User is able to add multiple food items from same restaurant                             # src/test/java/FeatureFile/addToCart.feature:20
+2022-08-22 17:08:30 INFO  Browser :30 - Browser Opened
+2022-08-22 17:08:845 INFO  swiggyLocationnPageFactory :71 - Entering desired location
+2022-08-22 17:08:402 INFO  swiggyLocationnPageFactory :77 - Selecting desired location
+  Given User is already on Home page                                                                        # StepDefinition.swiggyAddToCartDefinition.user_is_already_on_home_page()
+2022-08-22 17:08:404 INFO  swiggyAddToCartPageFactory :89 - Clicking on search field
+  When User click on search field                                                                           # StepDefinition.swiggyAddToCartDefinition.user_click_on_search_field()
+2022-08-22 17:08:274 INFO  swiggyAddToCartPageFactory :97 - Entered Hotel Durga
+2022-08-22 17:08:749 INFO  swiggyAddToCartPageFactory :103 - Hotel durga restaurant menu displayed
+  And User enters Valid Restaurant name and click on enter                                                  # StepDefinition.swiggyAddToCartDefinition.user_enters_valid_restaurant_name_and_click_on_enter()
+2022-08-22 17:08:911 INFO  swiggyAddToCartPageFactory :117 - Adding burger
+2022-08-22 17:08:22 INFO  swiggyAddToCartPageFactory :120 - Adding combo
+2022-08-22 17:08:254 INFO  swiggyAddToCartPageFactory :123 - Adding quick bites
+  And User is able to add different desired food items                                                      # StepDefinition.swiggyAddToCartDefinition.user_is_able_to_add_different_desired_food_items()
+2022-08-22 17:08:525 INFO  swiggyAddToCartPageFactory :142 - Increasing the quantity of food
+  And User is able to increase or decrease the quantity of food item                                        # StepDefinition.swiggyAddToCartDefinition.user_is_able_to_increase_or_decrease_the_quantity_of_food_item()
+      org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=104.0.5112.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN51013508', ip: '192.168.29.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.82, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\aavadhoo\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64750}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e5bc1e71f80729c7f52d3552f92d149
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor130.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at PageFactoryy.swiggyAddToCartPageFactory.increaseQuantity(swiggyAddToCartPageFactory.java:144)
+	at StepDefinition.swiggyAddToCartDefinition.user_is_able_to_increase_or_decrease_the_quantity_of_food_item(swiggyAddToCartDefinition.java:63)
+	at âœ½.User is able to increase or decrease the quantity of food item(file:///C:/Users/aavadhoo/OneDrive%20-%20Capgemini/Desktop/JUnit/com.swiggyyy/src/test/java/FeatureFile/addToCart.feature:25)
+
+  Then User is able to click on Checkout button and User should be able to redirect to secure checkout page # StepDefinition.swiggyAddToCartDefinition.user_is_able_to_click_on_checkout_button_and_user_should_be_able_to_redirect_to_secure_checkout_page()
+2022-08-22 17:08:816 INFO  Browser :36 - Browser closed
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 41267
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 22, 2022 5:36:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="TestRunner.testRunnerClass" time="44.599">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]&quot;}&#10;  (Session info: chrome=104.0.5112.82)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LIN51013508&apos;, ip: &apos;192.168.29.56&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.82, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\aavadhoo\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64804}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 80c4795c8b7f889adc8002bed4b3e80b&#10;*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]"}
+  (Session info: chrome=104.0.5112.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN51013508', ip: '192.168.29.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.82, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\aavadhoo\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64804}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 80c4795c8b7f889adc8002bed4b3e80b
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]}
+</failure>
+    <system-out><![CDATA[
+@AddToCart
+Scenario: Check if User is able to view the total cost and discount in Cart page                            # src/test/java/FeatureFile/addToCart.feature:29
+2022-08-22 17:08:827 INFO  Browser :30 - Browser Opened
+2022-08-22 17:08:280 INFO  swiggyLocationnPageFactory :71 - Entering desired location
+2022-08-22 17:08:845 INFO  swiggyLocationnPageFactory :77 - Selecting desired location
+  Given User is already on Home page                                                                        # StepDefinition.swiggyAddToCartDefinition.user_is_already_on_home_page()
+2022-08-22 17:08:848 INFO  swiggyAddToCartPageFactory :89 - Clicking on search field
+  When User click on search field                                                                           # StepDefinition.swiggyAddToCartDefinition.user_click_on_search_field()
+2022-08-22 17:08:908 INFO  swiggyAddToCartPageFactory :97 - Entered Hotel Durga
+2022-08-22 17:08:548 INFO  swiggyAddToCartPageFactory :103 - Hotel durga restaurant menu displayed
+  And User enters Valid Restaurant name and click on enter                                                  # StepDefinition.swiggyAddToCartDefinition.user_enters_valid_restaurant_name_and_click_on_enter()
+2022-08-22 17:08:653 INFO  swiggyAddToCartPageFactory :117 - Adding burger
+2022-08-22 17:08:734 INFO  swiggyAddToCartPageFactory :120 - Adding combo
+2022-08-22 17:08:885 INFO  swiggyAddToCartPageFactory :123 - Adding quick bites
+  And User is able to add different desired food items                                                      # StepDefinition.swiggyAddToCartDefinition.user_is_able_to_add_different_desired_food_items()
+2022-08-22 17:08:67 INFO  swiggyAddToCartPageFactory :142 - Increasing the quantity of food
+  And User is able to increase or decrease the quantity of food item                                        # StepDefinition.swiggyAddToCartDefinition.user_is_able_to_increase_or_decrease_the_quantity_of_food_item()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]"}
+  (Session info: chrome=104.0.5112.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN51013508', ip: '192.168.29.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.82, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\aavadhoo\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64804}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 80c4795c8b7f889adc8002bed4b3e80b
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at PageFactoryy.swiggyAddToCartPageFactory.increaseQuantity(swiggyAddToCartPageFactory.java:144)
+	at StepDefinition.swiggyAddToCartDefinition.user_is_able_to_increase_or_decrease_the_quantity_of_food_item(swiggyAddToCartDefinition.java:63)
+	at âœ½.User is able to increase or decrease the quantity of food item(file:///C:/Users/aavadhoo/OneDrive%20-%20Capgemini/Desktop/JUnit/com.swiggyyy/src/test/java/FeatureFile/addToCart.feature:34)
+
+  Then User is able to click on Checkout button and User should be able to redirect to secure checkout page # StepDefinition.swiggyAddToCartDefinition.user_is_able_to_click_on_checkout_button_and_user_should_be_able_to_redirect_to_secure_checkout_page()
+  Then User is able to view total cost and discount in cart page                                            # StepDefinition.swiggyAddToCartDefinition.user_is_able_to_view_total_cost_and_discount_in_cart_page()
+2022-08-22 17:08:427 INFO  Browser :36 - Browser closed
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 45828
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 22, 2022 5:36:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="TestRunner.testRunnerClass" time="33.688"/>
+  <testcase name="runScenario" classname="TestRunner.testRunnerClass" time="16.577"/>
+  <testcase name="runScenario" classname="TestRunner.testRunnerClass" time="21.936"/>
+  <testcase name="runScenario" classname="TestRunner.testRunnerClass" time="23.831"/>
+  <testcase name="runScenario" classname="TestRunner.testRunnerClass" time="10.549"/>
+  <testcase name="runScenario" classname="TestRunner.testRunnerClass" time="12.54"/>
+  <testcase name="runScenario" classname="TestRunner.testRunnerClass" time="17.023"/>
+  <testcase name="runScenario" classname="TestRunner.testRunnerClass" time="16.434"/>
+</testsuite>
